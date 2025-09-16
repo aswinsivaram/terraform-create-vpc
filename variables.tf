@@ -1,3 +1,6 @@
+variable "region" {
+    default = "us-east-1"
+}
 variable "vpc_cidr" {
   description = "CIDR block for the VPC"
   type        = string
@@ -10,6 +13,3 @@ variable "vpc_name" {
   default     = "main-vpc"
 }
 
-variable "region" {
-    default=us-east-1
-}
