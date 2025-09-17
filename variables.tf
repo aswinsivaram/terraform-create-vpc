@@ -6,5 +6,5 @@ variable "vpc_cidr" {
 }
 variable "name" {
   default = "main-vpc"
-}
+} 
 
